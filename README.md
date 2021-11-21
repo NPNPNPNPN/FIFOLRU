@@ -1,4 +1,4 @@
-# Algoritmos First In First Out(FIFO)y Least Recently Used(LRU).
+# Algoritmos First In First Out(FIFO) y Least Recently Used(LRU).
 
 
 Opciones de menu:
