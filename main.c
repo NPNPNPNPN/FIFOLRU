@@ -1,16 +1,6 @@
 #include <iostream>
 using namespace std;
 
-void menu(){
-	cout << "\n\n	Administrador de procesos"<<
-	"\n\n	Elija el algoritmo que utilizara para ejecutar las tareas" <<
-	"\n1. FIFO"<<
-	"\n2. LRU"<<
-  "\n3. Nuevo stream de procesos"<<
-	"\n0. Salir"<<
-	"\nTeclea la opcion:";
-}
-
 void PrintMatriz(char Procesos[5][30], char Requests[30], double CambiosPagina, double Rendimiento, char Cambios[30]){//Proceso para imprimir la tabla
   for(int r=0;r<129;r++){
     cout << "-";}//Linea superior
@@ -284,11 +274,14 @@ Request_gen(Requests);
 
   do
   {
+    cout << "\n \n Administrador de procesos" << endl;
+    cout << "\n \n Elija el algoritmo que utilizara para ejecutar las tareas:" << endl;
     cout << "1.FIFO" << endl;
     cout << "2.LRU" << endl;
     cout << "3.Nuevo stream de procesos" << endl;
     cout << "4.Mostrar pasos(toggle)" << endl;
     cout << "5.Salir" << endl;
+    cout << "Teclea la opcion => ";
     cin >> OpcionMenu;
 
     switch(OpcionMenu)
